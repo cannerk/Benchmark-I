@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+}
+
+div#page{
+	width:600px;
+	margin:0 auto;
+}
+
+a{
+	color:#09F;
+	text-decoration:none;
+}
+
+div#stage{
+	position:relative;
+	overflow:hidden;	
+	width:500px;
+	height:400px;
+	margin:0 auto;	
+	border: 1px solid #ccc;
+}
+
+img#follower{
+	position:absolute;
+}
+
+div.trace{
+	color: #999;
+	font-size:12px;
+	padding: 6px 0;
+}
+
+div.foot{
+	width:500px;
+	margin:1.6em auto;
+	text-align:left;
+	font-size:12px;
+	line-height:1.6em;
+}
+
